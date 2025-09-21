@@ -27,14 +27,6 @@ npm install bootstrap
 npm start
 ```
 
-## Comandos
-
-```bash
-npm start          # Ejecutar en desarrollo
-npm run build      # Construir para producción
-npm test           # Ejecutar pruebas
-```
-
 ## Funcionalidades
 
 ### Campos del formulario:
