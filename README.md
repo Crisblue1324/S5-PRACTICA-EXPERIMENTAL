@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Formulario React con Validaciones
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Formulario de registro con validaciones dinámicas usando React y Bootstrap.
 
-## Available Scripts
+## Descripción
 
-In the project directory, you can run:
+Proyecto desarrollado en 3 sesiones:
+- **Sesión 1**: Formulario básico con React
+- **Sesión 2**: Estilos con Bootstrap
+- **Sesión 3**: Validaciones dinámicas
 
-### `npm start`
+## Instalación
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clonar repositorio:
+```bash
+git clone https://github.com/Crisblue1324/S5-PRACTICA-EXPERIMENTAL.git
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Instalar dependencias:
+```bash
+npm install
+npm install bootstrap
+```
 
-### `npm test`
+3. Ejecutar proyecto:
+```bash
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Comandos
 
-### `npm run build`
+```bash
+npm start          # Ejecutar en desarrollo
+npm run build      # Construir para producción
+npm test           # Ejecutar pruebas
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Funcionalidades
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Campos del formulario:
+- **Nombre**: Mínimo 2 caracteres
+- **Correo**: Formato de email válido
+- **Contraseña**: Mínimo 8 caracteres, mayúscula, minúscula y número
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Características:
+- Validación en tiempo real
+- Mensajes de error dinámicos
+- Diseño responsivo
+- Bootstrap integrado
 
-### `npm run eject`
+## Tecnologías
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React 18
+- Bootstrap 5
+- CSS3
+- JavaScript ES6+
